@@ -21,7 +21,7 @@ var players = ["Michael Jordan", "Dennis Rodman"];
 function displayGif(player) {
 
 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=bWRree7iP0V0neZViCSJ3wUU4DANrTY4&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=bWRree7iP0V0neZViCSJ3wUU4DANrTY4&limit=10";
 
     $("#searches").empty();
 
@@ -95,7 +95,7 @@ $("#addSearch").on("click", function (event) {
     //console.log("I've been clicked");
     var text = $("#textSearch").val().trim();
     players.push(text);
-    //console.log(players);
+        //console.log(players);
     renderBtn();
 });
 
