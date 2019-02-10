@@ -1,4 +1,4 @@
 # GifTastic
 
-https://rodolfosotojr.github.io/Bootstrap-Portfolio/
+https://rodolfosotojr.github.io/GifTastic
 
